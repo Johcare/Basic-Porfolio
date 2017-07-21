@@ -2,7 +2,7 @@ body{
 font:15px/1.5 Arial, Helvetica, sans-serif;
 margin:0;
 padding: 0;
-background-color: #253d4a;
+background-color: #cbe7f7;
 }
 
 
@@ -16,12 +16,12 @@ overflow:hidden;
 
 /*HEADER*/
 header {
-	font-size: 20px;
+	/*font-size: 20px;*/
 border-bottom: solid #e6d9d9;
 min-height: 70px;
 padding-top: 30px;
 color:#000000;
-background: #34424a;
+background: #dad1ad;
 min-height:70px; 
 
 }
@@ -64,16 +64,10 @@ margin-top: 10px;
 header .highlight, header .current a{
 color:#000000;
 font-weight: bold;
-
+font-size: 20px;
 }
 
-h1:hover{
 
-	color:azure;
-
-
-}
- 
 
 
 header a:hover{
@@ -85,6 +79,27 @@ li.current:hover{
 
 color:azure;
 font-weight: bold;
+
+}
+
+.dark{
+
+background: #2d3b42;
+width: 100%;
+padding-right: 2em;
+padding-left: 2em;
+
+}
+
+.grey{
+	border-radius: 20px;
+background: #483d8b;
+padding-left: 3em;
+
+}
+p.dark{
+	border-radius: 20px;
+padding-right: 3em;
 
 }
 
@@ -128,7 +143,7 @@ margin-bottom: 10px;
 #newsleter{
 padding:15px;
 color:#ffffff;
-background: #34424a;
+background: #0d191f;
 
 }
 #newsleter h1{
@@ -159,17 +174,6 @@ width: 30%;
 }
 
 
-
-footer{
-padding:20px;
-margin-top:20px;
-color:#ffffff;
-background-color:#34424a;
-text-align: center;
-
-
-}
-
 h2{
 color: #000000;
 
@@ -195,3 +199,35 @@ text-decoration: none;
 }
 
 a:-webkit-any-link:hover
+
+
+/*SIDEBAR*/
+
+aside#sidebar{
+float: right;
+width: 30%;
+margin-top: 10px;
+
+}
+
+
+/*maincol*/
+
+
+article#main-col{
+	/*background: #d2e3ec;*/
+padding-right:2em;	
+float: left;
+width: 65%;
+
+}
+
+footer{
+padding:20px;
+margin-top:20px;
+color:#ffffff;
+background-color:#34424a;
+text-align: center;
+
+
+}
